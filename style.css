@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+.calculator input[type="text"] {
+    width: 92%;
+    padding: 10px;
+    font-size: 18px;
+}
+.calculator .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.calculator button {
+    width: 70px;
+    height: 50px;
+    font-size: 18px;
+}
